@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mainLayout" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/mainFrameLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/previewContainer" android:background="#ffaaaaaa" android:layout_width="fill_parent" android:layout_height="196.0dip">
+            <com.deltaid.cameratest.TouchSurfaceView android:layout_gravity="center|left|top" android:id="@id/preview" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.deltaid.cameratest.CameraView android:layout_gravity="center|left|top" android:id="@id/cameraView1" android:layout_width="3.0dip" android:layout_height="4.0dip" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/controlsContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip">
+        <RadioGroup android:orientation="horizontal" android:id="@id/camRadioGroup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="10.0dip" />
+        <TextView android:textSize="12.0sp" android:id="@id/expLbl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:text="@string/exposure" />
+        <LinearLayout android:id="@id/minMaxExpLblContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_gravity="bottom" android:id="@id/minExpTxtVu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/min" />
+            <EditText android:textAppearance="?android:textAppearanceMedium" android:textColor="@android:color/holo_blue_bright" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/expValTxtVu" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Medium Text" android:singleLine="true" android:numeric="integer" android:layout_weight="1.0" android:inputType="number" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_gravity="bottom" android:id="@id/maxExpTxtVu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/max" />
+        </LinearLayout>
+        <SeekBar android:id="@id/expsoureSeekBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" />
+        <TextView android:textSize="12.0sp" android:id="@id/gainLbl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:text="@string/gain" />
+        <LinearLayout android:id="@id/minMaxGainLblContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_gravity="bottom" android:id="@id/minGainTxtVu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/min" />
+            <EditText android:textAppearance="?android:textAppearanceMedium" android:textColor="@android:color/holo_blue_bright" android:gravity="center_horizontal" android:layout_gravity="bottom|center" android:id="@id/gainValTxtVu" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Medium Text" android:singleLine="true" android:numeric="integer" android:layout_weight="1.0" android:inputType="number" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_gravity="bottom" android:id="@id/maxGainTxtVu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/max" />
+        </LinearLayout>
+        <SeekBar android:id="@id/gainSeekBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" />
+        <LinearLayout android:id="@id/picVidBtnContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip">
+            <Button android:textColor="@android:color/white" android:id="@id/startCamBtn" android:background="@android:color/holo_red_light" android:layout_width="wrap_content" android:layout_height="35.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="5.0dip" android:text="@string/stop_camera" android:layout_weight="1.0" />
+            <Button android:textColor="@android:color/white" android:id="@id/picBtn" android:background="@android:color/holo_blue_light" android:layout_width="wrap_content" android:layout_height="35.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/take_picture" android:layout_weight="1.0" />
+            <Button android:textColor="@android:color/white" android:id="@id/vidBtn" android:background="@android:color/holo_blue_light" android:layout_width="wrap_content" android:layout_height="35.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/save_video" android:layout_weight="1.0" />
+            <Button android:textColor="@android:color/white" android:id="@id/lightBtn" android:background="@android:color/holo_blue_light" android:layout_width="wrap_content" android:layout_height="35.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="15.0dip" android:text="@string/light" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/vibBtnContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="15.0dip" android:layout_weight="1.0">
+            <Button android:textColor="@android:color/white" android:id="@id/vibratorBtn" android:background="@android:color/holo_blue_light" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="5.0dip" android:text="@string/start_vibrator" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

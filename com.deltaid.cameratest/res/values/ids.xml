@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="mainLayout">false</item>
+    <item type="id" name="mainFrameLayout">false</item>
+    <item type="id" name="previewContainer">false</item>
+    <item type="id" name="preview">false</item>
+    <item type="id" name="cameraView1">false</item>
+    <item type="id" name="controlsContainer">false</item>
+    <item type="id" name="camRadioGroup">false</item>
+    <item type="id" name="expLbl">false</item>
+    <item type="id" name="minMaxExpLblContainer">false</item>
+    <item type="id" name="minExpTxtVu">false</item>
+    <item type="id" name="expValTxtVu">false</item>
+    <item type="id" name="maxExpTxtVu">false</item>
+    <item type="id" name="expsoureSeekBar">false</item>
+    <item type="id" name="gainLbl">false</item>
+    <item type="id" name="minMaxGainLblContainer">false</item>
+    <item type="id" name="minGainTxtVu">false</item>
+    <item type="id" name="gainValTxtVu">false</item>
+    <item type="id" name="maxGainTxtVu">false</item>
+    <item type="id" name="gainSeekBar">false</item>
+    <item type="id" name="picVidBtnContainer">false</item>
+    <item type="id" name="startCamBtn">false</item>
+    <item type="id" name="picBtn">false</item>
+    <item type="id" name="vidBtn">false</item>
+    <item type="id" name="vibBtnContainer">false</item>
+    <item type="id" name="vibratorBtn">false</item>
+    <item type="id" name="lightBtn">false</item>
+</resources>

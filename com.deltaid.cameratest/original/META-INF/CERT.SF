@@ -1,0 +1,29 @@
+Signature-Version: 1.0
+X-Android-APK-Signed: 2
+SHA1-Digest-Manifest: bYfPhE7YYZB6n+Pc2m91165QYoI=
+Created-By: 1.0 (Android)
+
+Name: AndroidManifest.xml
+SHA1-Digest: a6X4i2/3EU5cwnYmJlzH8z2rHFE=
+
+Name: res/layout-port/activity_main.xml
+SHA1-Digest: sX0Ake1jnN0i8ReHLzPHXH6BRwA=
+
+Name: res/drawable/deltaid_logo_288.png
+SHA1-Digest: 6CAPub8gVwJkUVcBKULXybrUQuQ=
+
+Name: res/drawable/delta_id_blue_logo.png
+SHA1-Digest: KV6M0oN6yv2eu8sTiyG4Itq8yX8=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: UOEco91EMQv/E+lzkrACG8DOMSM=
+
+Name: res/layout-land/activity_main.xml
+SHA1-Digest: y1V/2gMse+1Rh/XzUqc6Y8pUGX4=
+
+Name: resources.arsc
+SHA1-Digest: Gqv7uA3AgW4iONaXTVocR96lr8U=
+
+Name: classes.dex
+SHA1-Digest: Vj41dP/lcRxOdVdN4XISy4J4FnY=
+
