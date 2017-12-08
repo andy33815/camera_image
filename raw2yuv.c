@@ -285,6 +285,7 @@ MINT32 rawImgUnpack(MUINT8 * pSrcBuf,
     }
     //a_Stride = 3156;
     printf("rawImgUnpack imgW=%d, imgH=%d, bitDepth=%d, Stride=%d\n",a_imgW,a_imgH,a_bitDepth,a_Stride);
+	a_Stride = 2880;
 
     if(a_bitDepth == 8)
     {
@@ -398,9 +399,9 @@ MINT32 rawImgUnpack(MUINT8 * pSrcBuf,
 }
 
 
-#define IMG_WIDTH 2104
-#define IMG_HIGHT 1560
-#define IMG_DEPTH 10
+#define IMG_WIDTH 1920
+#define IMG_HIGHT 1088
+#define IMG_DEPTH 8
 #define MAX_RAW_SIZE (IMG_WIDTH*IMG_HIGHT*2)
 
 int main(int argc,char *argv[])
